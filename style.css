@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+}
+
+html {
+   height: 100%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  padding: 0;
+  margin: 0;
+  background-image: url("background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 100% 0;
+  min-height: 100%;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.box {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+header {
+  text-align: center;
+}
+
+.logo {
+  max-width: 200px;
+}
+
+header h2 {
+  color: #00ff00;
+  margin-top: 10px;
+}
+
+.menu {
+  margin-top: 6px;
+  text-align: center;
+  background-color: #00ff00;
+  padding: 10px;
+}
+
+p, h3 {
+  color: rgb(255, 255, 255);
+}
+
+.rettangolo {
+  border-radius: 5px;
+  height: 20px;
+}
+
+.rettangolo1 {
+  background-color: rgb(226, 162, 24);
+  width: 200px;
+}
+
+.rettangolo2 {
+  background-color: #00ff00;
+  width: 400px;
+}
+
+.rettangolo3 {
+  background-color: rgb(213, 63, 108);
+  width: 90px;
+}
+
+.arrow:before {
+  content: "\0021A6";
+}
+
+main, .mt {
+  margin-top: 25px;
+}
+
+main > h3, p {
+  padding-bottom: 3px;
+}
+
+main > p {
+  font-size: 11px;
+}
